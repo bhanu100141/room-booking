@@ -1,0 +1,50 @@
+.property-card {
+    border: 1px solid rgba(0, 0, 0, 0.1); /* Semi-transparent border */
+    padding: 20px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent white background */
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Semi-transparent shadow */
+    transition: transform 0.3s, box-shadow 0.3s;
+    position: relative; /* Needed for positioning the button */
+  }
+  
+  .property-card img {
+    width: 80%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+    position: relative; /* Needed for positioning the button */
+  }
+  
+  .property-card h3, .property-card p {
+    margin: 10px 0;
+  }
+  
+  .property-card button {
+    background-color: goldenrod;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    position: absolute; 
+    bottom: 20px; 
+    left: 50%; 
+    transform: translateX(-50%); 
+    opacity: 0; 
+  }
+  
+  .property-card:hover {
+    transform: translateY(-10px); 
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2); 
+    background-color:rgb(73, 151, 241);
+    color: white;
+  }
+  
+  .property-card:hover button {
+    opacity: 1;
+    background-color: goldenrod; 
+  }
+  

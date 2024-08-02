@@ -1,0 +1,41 @@
+.checkout {
+    margin-top: 20px;
+  }
+  
+  .checkout form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .checkout-summary {
+    margin-top: 20px;
+    text-align: right;
+  }
+  .checkout label{
+    font-weight: bold;
+  }
+  .checkout input{
+    padding: 5px;
+    border-radius: 8px;
+    
+  }
+  .back{
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgb(130, 126, 115);
+    border: 0px;
+    color: white;
+    cursor: pointer;
+  }
+  .confirm{
+    padding: 10px;
+    border-radius: 5px;
+    background-color: goldenrod;
+    border: 0px;
+    color: white;
+    cursor: pointer;
+  }
+  .checkout-summary p{
+    font-weight: bold;
+  }

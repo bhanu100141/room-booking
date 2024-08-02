@@ -1,0 +1,32 @@
+.rooms {
+    padding: 10px 50px;
+  }
+  
+  .filters {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .filters select {
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: 300;
+  }
+  .property-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+  @media (max-width: 768px) {
+    .property-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .property-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+  
