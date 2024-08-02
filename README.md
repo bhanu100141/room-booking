@@ -6,6 +6,31 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
+# commands are i additionaly added
+
+  react-router-dom
+
+#ABOUT :
+
+You can redirect to room page click on room link in navbar or you can click explore our rooms button which is in hoom page.
+
+In room page you can price range low to high or high to low and select room type single or deluxe or double deluxe rooms and set customer 
+
+count. 
+
+for bboking the room you have to hover on the room images then book now button will appear. 
+
+you can see your booking cart end of the page you can increase and decrease quality there is price also
+
+when you click on remove button it will br removed.
+
+and if you are ok with evarythig click on proceed to checkout button it will redirect to checkout and 
+
+here you have to give name,email,number,paymentdetails. on the right side you have confirm booking button if click on it booking is 
+
+successfully complete you can go back by clicking on back to cart button.
+
+
 ### `npm start`
 
 Runs the app in the development mode.\
